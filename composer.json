@@ -1,0 +1,44 @@
+{
+    "name": "studycs/basic",
+    "description": "yii2 basic template",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "studycs",
+            "email": "studycs@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-redis": "^2.0",
+        "symfony/dotenv": "^5.4",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "replace": {
+        "cebe/markdown": "*",
+        "bower-asset/jquery": "*",
+        "npm-asset/bootstrap": "*",
+        "ezyang/htmlpurifier": "*",
+        "bower-asset/inputmask": "*",
+        "bower-asset/punycode": "*",
+        "bower-asset/yii2-pjax": "*",
+        "bower-asset/bootstrap": "*",
+        "ralouphie/getallheaders": "*",
+        "paragonie/random_compat": "*",
+        "symfony/polyfill-mbstring": "*",
+        "symfony/deprecation-contracts": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "^2.2",
+        "symfony/var-dumper": "^5.4"
+    }
+}
